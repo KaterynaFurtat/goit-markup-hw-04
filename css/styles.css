@@ -243,7 +243,6 @@ h1, h2, h3, h4, h5, h6, ul, p {
     margin-right: 30px;
 }
 .feature-icon {
-    margin-bottom: 30px;
     border-radius: 4px;
 }
 
@@ -354,7 +353,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 .clients {
     display: flex;
     justify-content: center;
-    margin: 16px 30px;
+    /* margin: 16px 30px; */
 }
 
 .clients-item {
@@ -362,6 +361,10 @@ h1, h2, h3, h4, h5, h6, ul, p {
     height: 92px;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
+}
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--axent-color);
 }
 
 .clients-item:not(:last-child) {
